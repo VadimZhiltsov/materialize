@@ -9,7 +9,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 // Check for jQuery.
 if (typeof jQuery === 'undefined') {
-  var jQuery;
   // Check if require is a defined function.
   if (typeof require === 'function') {
     jQuery = $ = require('jquery');
